@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build Output
+dist/
+build/
+
+# IDE & Editor Setup
+.vscode/
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security / Environment
+.env
+.env.*
+!.env.example
+.env.local
+
+# Obfuscator Tool Specific Ignore
+# We do not want to upload the massive raw JSON telemetry payload files you may test with!
+test-payloads/
+*.json.download
+obfuscated-*.json
