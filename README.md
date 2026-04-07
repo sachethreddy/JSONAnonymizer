@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🛡️ JSON Anonymizer</h1>
-  <p><b>A high-performance, compliance-ready framework for deeply nested data obfuscation and PII extraction.</b></p>
+  <p><b>A high-performance, framework for deeply nested data obfuscation and PII extraction.</b></p>
 </div>
 
 ---
