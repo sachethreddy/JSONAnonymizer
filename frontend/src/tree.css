@@ -1,0 +1,161 @@
+/* Sub Mode Toggles */
+.sub-mode-toggle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sub-mode-toggle button {
+  padding: 8px 16px;
+  background: transparent;
+  border: 1px solid var(--glass-border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.sub-mode-toggle button.active-outline {
+  border-color: var(--primary-accent);
+  color: var(--text-main);
+  background: rgba(99, 102, 241, 0.1);
+}
+
+.sub-mode-toggle button:hover {
+  background: rgba(99, 102, 241, 0.05);
+}
+
+/* Path Banner */
+.path-banner {
+  display: flex;
+  align-items: center;
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid var(--primary-accent);
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.path-banner span {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.path-banner code {
+  color: #a5b4fc;
+  font-weight: bold;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.path-banner .copy-btn {
+  padding: 6px 12px;
+  background: var(--primary-accent);
+  color: white;
+  font-size: 0.85rem;
+}
+
+.path-banner .copy-btn:hover {
+  background: var(--primary-hover);
+}
+
+/* JSON Viewer Tree Styles */
+.tree-view-container {
+  overflow-y: auto;
+  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
+  font-size: 0.95em;
+  padding: 15px;
+  white-space: normal;
+}
+
+.json-node {
+  padding-left: 15px;
+  position: relative;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.json-node.json-root {
+  border-left: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.json-node-opener {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  user-select: none;
+  color: var(--text-muted);
+}
+
+.json-node-opener:hover {
+  color: var(--text-main);
+}
+
+.json-toggle {
+  font-size: 0.7em;
+  color: var(--primary-accent);
+}
+
+.json-bracket {
+  color: var(--text-muted);
+  font-weight: bold;
+}
+
+.json-child {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.json-key {
+  color: #6ee7b7; /* Emeraldish */
+  cursor: pointer;
+}
+
+.json-key:hover {
+  text-decoration: underline;
+  color: #a7f3d0;
+}
+
+.json-value {
+  cursor: pointer;
+  word-wrap: break-word;
+}
+
+.json-value:hover {
+  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.json-value-string { color: #fca5a5; } /* Reddish */
+.json-value-number { color: #93c5fd; } /* Blueish */
+.json-value-boolean { color: #fde047; } /* Yellowish */
+.json-value-null { color: #d1d5db; font-style: italic; }
+
+.json-comma {
+  color: var(--text-muted);
+}
+
+.json-empty {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.json-error {
+  color: var(--error);
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+.json-collapsed-text {
+  font-size: 0.85em;
+  color: #fbbf24;
+  font-style: italic;
+}
