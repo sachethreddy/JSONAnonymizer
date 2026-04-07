@@ -9,6 +9,8 @@
 JSON Anonymizer is a specialized pipeline tool built to intercept, scrub, and rewrite sensitive data payloads (like API dumps, log traces, and localized databases) prior to entering lower-security environments. Whether through exact key configurations or intelligent heuristic deep-scanning, the anonymization engine dynamically protects data boundaries.
 
 ---
+<img width="1409" height="826" alt="Screenshot 2026-04-06 at 10 29 44 PM" src="https://github.com/user-attachments/assets/1989462b-e137-432c-9452-0abda79e49e5" />
+<img width="1409" height="826" alt="Screenshot 2026-04-06 at 10 29 33 PM" src="https://github.com/user-attachments/assets/2d3b9e4f-3bca-475d-93d4-a38021286386" />
 
 ## ✨ Primary Features
 
